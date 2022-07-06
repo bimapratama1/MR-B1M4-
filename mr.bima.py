@@ -127,18 +127,19 @@ def back():
 def banner():
 	clear()
 	alvino_xy(f'''\t{asu}                                             
+____   ___  ____  _____ _____
+|  _ \ / _ \| __ )| ____|_   _|
+| |_) | | | |  _ \|  _|   | |
+|  _ <| |_| | |_) | |___  | |
+|_| \_\\___/|____/|_____| |_|
 
+____  _   _ __  __ ____ ___    _    _   _
+|  _ \| | | |  \/  / ___|_ _|  / \  | | | |
+| |_) | | | | |\/| \___ \| |  / _ \ | |_| |
+|  _ <| |_| | |  | |___) | | / ___ \|  _  |
+|_| \_\\___/|_|  |_|____/___/_/   \_\_| |_|	
 
- _██████╗ ██╗███╗   ███╗ █████╗     ██╗  ██╗    ███████╗███████╗███████╗
-  ██╔══██╗██║████╗ ████║██╔══██╗    ╚██╗██╔╝    ╚════██║╚════██║╚════██ ║
-  ██████╔╝██║██╔████╔██║███████║     ╚███╔╝         ██╔╝    ██╔╝    ██╔╝
-  ██╔══██╗██║██║╚██╔╝██║██╔══██║     ██╔██╗        ██╔╝    ██╔╝    ██╔╝
-  ██████╔╝██║██║ ╚═╝ ██║██║  ██║    ██╔╝ ██╗       ██║     ██║     ██║
-  ╚═════╝ ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝       ╚═╝     ╚═╝     ╚═╝
-  ▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░    ▒ ░▒░ ░  ▒   ▒▒ ░   ░
-   ░    ░   ░ ░    ░   ▒   ░        ░ ░░ ░     ░  ░░ ░  ░   ▒    ░   
-
-			{m}•{k}•{h}•{sir} Author : MR.B1M4 {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : BANG X YR {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -193,7 +194,7 @@ def menu(my_name,my_id):
 	alvino_xy(f'>> Your Idz : '+str(my_id))
 	alvino_xy(f'>> Your Ip  : {ip}')
 	print('')
-	print('>> 1. Crack Publik (Saran)')
+	print('>> 1. Crack Publik ')
 	print('>> 2. Crack Follower ')
 	print('>> 3. Crack Grup   ')
 	print('>> 4. Crack File	')
@@ -216,7 +217,7 @@ def menu(my_name,my_id):
 		print('>> Sukses Logout+Hapus Kukis ')
 		exit()
 	else:
-		print('>> Pilih Yang Bener ngentod ')
+		print('>> Pilih Yang Bener Asu ')
 		back()
 def error():
 	print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
@@ -357,7 +358,7 @@ def dump_massal():
 			exit()
 	try:
 		print('')
-		print(f'>> Total Id Yang Terkumpul🔥{h}'+str(len(id)))
+		print(f'>> Total Idz Yang Terkumpul🔥{h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
@@ -569,10 +570,10 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('>> 1. Mobile (saran)')
-	print('>> 2. Mbasic ')
-	print('>> 3. Touch  ')
-	print('>> 4. Mtouch ')
+	print('>> 1. Mobile ')
+#	print('>> 2. Mbasic ')
+#	print('>> 3. Touch  ')
+#	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
@@ -647,11 +648,11 @@ def passwrd():
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
-	cetak(nel('\t[cyan]>>[green] Crack Selesai Ngab, Jangan Lupa ngocok lagi[cyan] <<[white] '))
+	cetak(nel('\t[cyan]>>[green] Crack Selesai Ngab, Jangan Lupa coli lagi[cyan] <<[white] '))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
-	print('>> Lanjut ngocok lagi ( Y/t ) ? ')
+	print('>> Lanjut Coli lagi ( Y/t ) ? ')
 	woi = input('>> Pilih : ')
 	if woi in ['y','Y']:
 		back()
